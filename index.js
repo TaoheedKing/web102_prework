@@ -46,7 +46,6 @@ function addGamesToPage(games) {
         <img src=${game.img} />`;
 
         // append the game to the games-container
-        let gamesContainer = document.querySelector('games-container');
         gamesContainer.append(div);
     }
 }
